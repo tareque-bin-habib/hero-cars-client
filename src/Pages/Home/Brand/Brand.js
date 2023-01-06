@@ -7,7 +7,7 @@ import nissan from '../../../image/brands/logo_bnw.png'
 const Brand = () => {
     return (
         <div>
-            <h1 className='font-bold text-center text-4xl'>Top Seller all over the world <span className='text-indigo-600 text-5xl'>World</span></h1>
+            <h1 className='font-bold text-center text-4xl'>Top Reseller all over the world <span className='text-indigo-600 text-5xl'>World</span></h1>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-20 items-center my-20'>
                 <div>
                     <img className='w-45' src={toyota} alt="" />

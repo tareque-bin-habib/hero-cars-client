@@ -1,0 +1,128 @@
+[
+    {
+        "brand": "Toyota",
+        "car_name": "Crown 2023",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2023/toyotacrown/platinum/4030/2yz/36/5.png?fm=webp&&w=768&h=328&q=90",
+        "orginal_price": 23000,
+        "resale_price": 20000
+    },
+    {
+        "brand": "Toyota",
+        "car_name": "Camry 2023",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/relative/2023/camry/base.png?bg=fff&fm=webp&q=90&w=768",
+        "orginal_price": 26000,
+        "resale_price": 24000
+    },
+    {
+        "brand": "Toyota",
+        "car_name": "Camry 2022",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/relative/2022/camry/base.png?bg=fff&fm=webp&q=90&w=768",
+        "orginal_price": 21000,
+        "resale_price": 19000
+    },
+    {
+        "brand": "Toyota",
+        "car_name": "Corola",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/relative/2022/camry/base.png?bg=fff&fm=webp&q=90&w=768",
+        "orginal_price": 25000,
+        "resale_price": 23000
+    },
+    {
+        "brand": "Toyota",
+        "car_name": "Corola Cross",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/relative/2022/corollacross/base.png?bg=fff&fm=webp&q=90&w=768",
+        "orginal_price": 30000,
+        "resale_price": 27000
+    },
+    {
+        "brand": "Toyota",
+        "car_name": "Corola Hatchback",
+        "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/relative/2023/corollahatchback/base.png?bg=fff&fm=webp&q=90&w=768",
+        "orginal_price": 21000,
+        "resale_price": 20000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "Accord",
+        "img": "https://global.honda/products/assets/automobiles/img/img-models05.jpg",
+        "orginal_price": 27000,
+        "resale_price": 26000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "City",
+        "img": "https://www.honda.com.bd/assets/dhs/images/city_rs/city_rs.png",
+        "orginal_price": 21000,
+        "resale_price": 18000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "Civic Turbo",
+        "img": "https://www.honda.com.bd/assets/dhs/new/car_images/Civic_icon.png",
+        "orginal_price": 25000,
+        "resale_price": 22000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "CR-V Turbo",
+        "img": "https://www.honda.com.bd/assets/dhs/new/car_images/crv_new.png",
+        "orginal_price": 24000,
+        "resale_price": 21000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "HR-V Turbo",
+        "img": "https://www.honda.com.bd/assets/dhs/new/car_images/hrv-2.png",
+        "orginal_price": 28000,
+        "resale_price": 26000
+    },
+    {
+        "brand": "Honda",
+        "car_name": "Br-V",
+        "img": "https://www.honda.com.bd/assets/dhs/images/brv/Exterior/Br-Vwebbanner.png",
+        "orginal_price": 29000,
+        "resale_price": 27000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Kicks",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/kicks/vehicle-profile-assets/2023/model-2023-kicks-sr-aspen-white-tricoat.png.ximg.l_3_m.smart.png",
+        "orginal_price": 26000,
+        "resale_price": 24000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Rogue Sport",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/rogue_sport/Vehicle%20Profile%20Assets/2022/2022-rogue-sport-g41-sl.png.ximg.l_3_m.smart.png",
+        "orginal_price": 30000,
+        "resale_price": 27000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Rogue",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/rogue/vehicle-profile-assets/2023/model-2023-rogue-platinum-two-tone-champagne-silver-metallic-super-black.png.ximg.l_3_m.smart.png",
+        "orginal_price": 35000,
+        "resale_price": 31000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Pathfinder",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/pathfinder/vehicle-profile-assets/2023/model-2023-pathfinder-platinum-4wd-scarlet-ember-tintcoat.png.ximg.l_3_m.smart.png",
+        "orginal_price": 31000,
+        "resale_price": 29000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Armada",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/armada/vehicle-profile-assets/2023/model-2023-armada-platinum-4wd-aspen-white-tricoat.png.ximg.l_3_m.smart.png",
+        "orginal_price": 34000,
+        "resale_price": 30000
+    },
+    {
+        "brand": "Nissan",
+        "car_name": "Nissan Ariya",
+        "img": "https://www.nissanusa.com/content/dam/Nissan/us/vehicles/ariya/vehicle-profile-assets/2023/model-2023-ariya-platinum-plus-e-4orce-two-tone-sunrise-copper-pearl-black-diamond-metallic.png.ximg.l_3_m.smart.png",
+        "orginal_price": 24000,
+        "resale_price": 19000
+    }
+]
