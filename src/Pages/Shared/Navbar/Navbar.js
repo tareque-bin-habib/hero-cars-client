@@ -1,13 +1,44 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../contexts/UserContext';
+import { FaUser } from "react-icons/fa";
+
 
 const Navbar = () => {
+    const { user, logOut } = useContext(AuthContext)
 
     const menuItems = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
         <li className='font-bold'><Link to='/about'>About</Link></li>
         <li className='font-bold'><Link to='/blog'>Blog</Link></li>
-        <li className='font-bold'><Link to='/login'>Login</Link></li>
+
+        {
+            user?.uid ?
+                <Link onClick={logOut}><button className="btn btn-primary">Log out</button></Link>
+                :
+                <>
+                    <li className='font-bold'><Link to='/login'>Login</Link></li>
+                </>
+
+        }
+
+        {
+            user?.photoURL ?
+                <Link title={user?.email}>
+                    <>
+                        <div className="avatar online ml-5">
+                            <div className="w-10 rounded-full">
+                                <img src={user?.photoURL} alt='' />
+                            </div>
+                        </div>
+                    </>
+                </Link>
+                :
+                <>
+                </>
+
+        }
+
 
     </>
 
