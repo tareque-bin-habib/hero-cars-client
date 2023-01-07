@@ -11,12 +11,16 @@ const Navbar = () => {
         <li className='font-bold'><Link to='/'>Home</Link></li>
         <li className='font-bold'><Link to='/about'>About</Link></li>
         <li className='font-bold'><Link to='/blog'>Blog</Link></li>
-        <li className='font-bold'><Link to='/dashboard'>Dashboard</Link></li>
+
 
 
         {
             user?.uid ?
-                <Link onClick={logOut}><button className="btn btn-primary">Log out</button></Link>
+                <>
+                    <li className='font-bold'><Link to='/dashboard'>Dashboard</Link></li>
+                    <Link onClick={logOut}><button className="btn btn-primary">Log out</button></Link>
+                </>
+
                 :
                 <>
                     <li className='font-bold'><Link to='/login'>Login</Link></li>
