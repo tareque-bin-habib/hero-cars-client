@@ -11,6 +11,8 @@ const Navbar = () => {
         <li className='font-bold'><Link to='/'>Home</Link></li>
         <li className='font-bold'><Link to='/about'>About</Link></li>
         <li className='font-bold'><Link to='/blog'>Blog</Link></li>
+        <li className='font-bold'><Link to='/dashboard'>Dashboard</Link></li>
+
 
         {
             user?.uid ?

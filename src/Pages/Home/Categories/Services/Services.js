@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Services = ({ services }) => {
+const Services = ({ services, setCarName }) => {
     const { _id, brand, car_name, orginal_price, resale_price, img } = services
     return (
         <div className='my-5'>
@@ -14,7 +14,9 @@ const Services = ({ services }) => {
                     <p className='font-bold '>Orginal Price: ${orginal_price}</p>
                     <p className='font-bold '>Resale Price: ${resale_price}</p>
                     <div className="card-actions ">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <label
+                            htmlFor="booking-modal"
+                            className="btn btn-primary" onClick={() => setCarName(services)}>Buy Now</label>
                     </div>
                 </div>
             </div>
