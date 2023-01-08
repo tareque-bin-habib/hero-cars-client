@@ -43,7 +43,7 @@ const MyBooking = () => {
                                 <td className='font-bold'>{table.name}</td>
                                 <td className='font-bold'>{table.brand}</td>
                                 <td className='font-bold'>{table.carName}</td>
-                                <td>{table.resale}</td>
+                                <td className='font-bold'>{table.resale}</td>
                             </tr>
                             )
                         }
