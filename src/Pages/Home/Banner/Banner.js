@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='py-40 '>
             <div className="hero ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={bannerImg} className="w-1/2 rounded-lg" alt='' />
+                    <img src={bannerImg} className="lg:w-1/2 rounded-lg" alt='' />
                     <div>
                         <h1 className="text-5xl font-bold">Buy The Best Quality Car's <br />
                             From Us
