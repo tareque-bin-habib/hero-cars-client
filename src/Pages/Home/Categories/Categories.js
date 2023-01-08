@@ -9,7 +9,7 @@ const Categories = () => {
     return (
         <div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 md:w-96 sm:w-56 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2023/toyotacrown/platinum/4030/2yz/36/5.png?fm=webp&&w=768&h=328&q=90" alt="Shoes" className="rounded-xl mt-10" />
                     </figure>
@@ -21,7 +21,7 @@ const Categories = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 md:w-96 sm:w-56 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://global.honda/products/assets/automobiles/img/img-models05.jpg" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -33,7 +33,7 @@ const Categories = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 md:w-96 sm:w-56 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://www.honda.com.bd/assets/dhs/images/brv/Exterior/Br-Vwebbanner.png" alt="Shoes" className="rounded-xl" />
                     </figure>

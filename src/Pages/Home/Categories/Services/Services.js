@@ -1,10 +1,18 @@
 import React from 'react';
+import { useContext } from 'react';
+import { AuthContext } from '../../../../contexts/UserContext';
 
 const Services = ({ services, setCarName }) => {
+    const { loading } = useContext(AuthContext)
     const { _id, brand, car_name, orginal_price, resale_price, img } = services
+
+    if (loading) {
+        return <progress className="progress w-56"></progress>
+    }
+
     return (
         <div className='my-5'>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card lg:w-96 md:w-96 sm:w-56 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <img src={img} alt="Shoes" className="rounded-xl" />
                 </figure>
