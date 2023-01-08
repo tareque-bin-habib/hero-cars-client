@@ -10,7 +10,7 @@ const Footer = () => {
                 <p><span className='font-bold text-indigo-600 text-3xl'>Hero Cars</span></p>
             </div>
             <div>
-                <span className="footer-title">Services</span>
+                <span className="footer-title font-bold">Services</span>
                 <Link to='/' className="link link-hover">Branding</Link>
                 <Link to='/' className="link link-hover">Design</Link>
                 <Link to='/' className="link link-hover">Marketing</Link>
