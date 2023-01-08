@@ -30,7 +30,7 @@ const MyBooking = () => {
                             <th>Name</th>
                             <th>Brand</th>
                             <th>Car</th>
-                            <th>Price</th>
+                            <th>$ Price</th>
 
                         </tr>
                     </thead>
