@@ -40,7 +40,7 @@ const MyBooking = () => {
                         {
                             tableData.map((table, i) => <tr key={table._id}>
                                 <th>{i + 1}</th>
-                                <td>{table.name}</td>
+                                <td className='font-bold'>{table.name}</td>
                                 <td>{table.brand}</td>
                                 <td>{table.carName}</td>
                                 <td>{table.resale}</td>
