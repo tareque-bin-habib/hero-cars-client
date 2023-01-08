@@ -48,7 +48,7 @@ const AllUsers = () => {
                         {
                             allUsers.map((all, i) => <tr key={all._id}>
                                 <th>{i + 1}</th>
-                                <td>{all.name}</td>
+                                <td className='font-bold'>{all.name}</td>
                                 <td>{all.email}</td>
                                 <td>{all?.role !== 'admin' && < button onClick={() => handleMakeAdmin(all._id)} className="btn btn-primary btn-xs">Make Admin</button>}
                                 </td>
