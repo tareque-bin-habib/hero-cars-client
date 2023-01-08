@@ -9,7 +9,7 @@ const MyBooking = () => {
     const [tableData, setTableData] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/bookings?email=${user?.email}`)
+        fetch(`https://hero-cars-server-five.vercel.app/bookings?email=${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 setTableData(data)

@@ -8,7 +8,7 @@ const Categorie = () => {
     const [data, setData] = useState([])
     const [carName, setCarName] = useState(null)
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://hero-cars-server-five.vercel.app/services')
             .then(res => res.json())
             .then(data => {
                 return setData(data.filter(categorie => categorie.brand === brand))

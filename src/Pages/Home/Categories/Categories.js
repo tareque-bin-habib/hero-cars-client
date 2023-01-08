@@ -17,7 +17,7 @@ const Categories = () => {
                         <h2 className="card-title font-bold ">Toyota</h2>
                         <p>Toyota Motor Corporation  Toyota Jidōsha kabushikigaisha, is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year.</p>
                         <div className="card-actions">
-                            <Link to={`/catergorie/Toyota`}><button className="btn btn-primary m-10">See more</button></Link>
+                            <Link to={`/catergorie/Toyota`}><button className="btn btn-primary m-10">See Cars</button></Link>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Categories = () => {
                         <h2 className="card-title font-bold">Honda</h2>
                         <p>Honda was the first Japanese automobile manufacturer to release a dedicated luxury brand, Acura, in 1986. Aside from their core automobile and motorcycle businesses, Honda also manufactures garden equipment, marine engines, personal watercraft, power generators, and other products. Since 1986, Honda has been involved with artificial intelligence/robotics research and released their ASIMO robot in 2000</p>
                         <div className="card-actions">
-                            <Link to={`/catergorie/Honda`}><button className="btn btn-primary m-10">See more</button></Link>
+                            <Link to={`/catergorie/Honda`}><button className="btn btn-primary m-10">See Cars</button></Link>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Categories = () => {
                         <h2 className="card-title font-bold">Nissan</h2>
                         <p>Nissan is a global car manufacturer that sells a full line of vehicles under the Nissan, INFINITI and Datsun brands. Nissan's global headquarters in Yokohama, Japan, manages operations in four regions: Japan-ASEAN, China, Americas, and AMIEO (Africa, Middle East, India, Europe & Oceania).</p>
                         <div className="card-actions">
-                            <Link to={`/catergorie/Nissan`}><button className="btn btn-primary m-10">See more</button></Link>
+                            <Link to={`/catergorie/Nissan`}><button className="btn btn-primary m-10">See Cars</button></Link>
                         </div>
                     </div>
                 </div>

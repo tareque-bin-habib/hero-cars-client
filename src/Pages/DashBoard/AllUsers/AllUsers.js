@@ -7,7 +7,7 @@ const AllUsers = () => {
     const [allUsers, setAllUsers] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://hero-cars-server-five.vercel.app/users')
             .then(res => res.json())
             .then(data => {
                 setAllUsers(data)
@@ -15,7 +15,7 @@ const AllUsers = () => {
     }, [])
 
     const handleMakeAdmin = id => {
-        fetch(`http://localhost:5000/users/admin/${id}`, {
+        fetch(`https://hero-cars-server-five.vercel.app/users/admin/${id}`, {
             method: 'PUT'
         })
             .then(res => res.json())
