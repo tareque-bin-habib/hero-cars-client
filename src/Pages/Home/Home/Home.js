@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Brand from '../Brand/Brand';
 import Categories from '../Categories/Categories';
 import Jeep from '../Jeep/Jeep';
+import Map from '../Map/Map';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Brand></Brand>
             <Categories></Categories>
             <Jeep></Jeep>
+            <Map></Map>
         </div>
     );
 };

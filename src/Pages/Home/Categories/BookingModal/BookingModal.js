@@ -66,7 +66,7 @@ const BookingModal = ({ carName, setCarName }) => {
                         <span className="label-text font-bold">Resale Price</span>
                         <input type="text" name='resale' disabled placeholder="Type here" value={resale_price} className="input input-bordered w-full font-bold" />
 
-                        <input type="text" disabled name='name' defaultValue={user?.displayName} placeholder="Your name" className="input input-bordered w-full font-bold" />
+                        <input type="text" name='name' defaultValue={user?.displayName} placeholder="Your name" className="input input-bordered w-full font-bold" />
 
                         <input type="text" name='phone' placeholder="phone number" className="input input-bordered w-full font-bold" />
                         <br />
